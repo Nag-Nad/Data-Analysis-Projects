@@ -37,6 +37,10 @@ This repository serves as a central hub for the projects I’ve completed while 
 - 🏠 **3) King County Housing Price Prediction**  
   Predicting house prices using regression models and feature engineering
 
+- 📊 **4) Multi-formatted File Data Analysis** 
+Collected and cleaned data from multiple files in different formats, then explored patterns using visualizations. Focused on making the data easier to understand and comparing results across sources.
+
+
 More projects will be added regularly!
 
 ---
