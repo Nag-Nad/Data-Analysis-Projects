@@ -36,7 +36,7 @@ Using SQL queries, I analyzed product demand, stock levels, revenue by product l
 
 ---
 
-## 📊 Analysis Summary
+## 📊 Analysis Summary and Potential Business Decisions
 
 ### 🔍 Query 1 – Low-Demand, High-Cost, High-Stock Products
 Identifies items that have **high inventory**, **low order frequency**, and **high unit cost**.
