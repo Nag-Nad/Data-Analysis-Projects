@@ -17,7 +17,6 @@ Using SQL queries, I analyzed product demand, stock levels, revenue by product l
 
 ## 📂 Project Structure
 
-
 ---
 
 ## ⚙️ How to Use
@@ -41,8 +40,7 @@ Using SQL queries, I analyzed product demand, stock levels, revenue by product l
 ### 🔍 Query 1 – Low-Demand, High-Cost, High-Stock Products
 Identifies items that have **high inventory**, **low order frequency**, and **high unit cost**.
 
-**Example Result:**
-📌 Insight: Products like this take up valuable warehouse space without generating revenue.
+📌 **Insight**: The query identifies ten products that represent a potential inventory liability — items with low sales volumes despite having substantial stock levels and in some cases, above-average unit costs. For example, the 1985 Toyota Supra (product code S18_3233) has a stock of 7,733 units but has recorded zero sales, making it a strong candidate for clearance or promotional campaigns. Similarly, the 1999 Indy 500 Monte Carlo SS and 1932 Alfa Romeo 8C2300 Spider Sport each have over 6,500 units in stock, yet have sold fewer than 900 units total, indicating a mismatch between inventory supply and customer demand. Items like the 1952 Citroen-15CV have a relatively high buy price ($72.82) combined with low sales, which increases the cost of holding unsold inventory. These insights suggest an opportunity to optimize warehouse space, reduce carrying costs, and improve stock efficiency by focusing on liquidating or re-evaluating procurement strategies for these underperforming products
 
 ---
 
@@ -53,7 +51,7 @@ Tests what happens if all product stocks are reduced by **5%**. We check if that
 - `1960 BSA Gold Star DBD34`
 - `1968 Ford Mustang`
 
-📌 Insight: These items may fall below acceptable buffer levels after reduction and should be reviewed manually.
+📌 **Insight**: To evaluate the potential impact of a 5% across-the-board inventory reduction, a simulation was run by calculating a new projected stock level (reducedStock) and comparing it to recent product demand. The results highlight two specific products that pose a stockout risk if such a reduction were implemented: the 1960 BSA Gold Star DBD34 (product code S24_2000) and the 1968 Ford Mustang (S12_1099). Both items have relatively low stock levels—15 and 68 units respectively—and have historically seen high order volumes of over 900 units each. If inventory were reduced by just 5%, their adjusted stock would fall well below 10% of historical demand, risking inability to fulfill future customer orders. This finding suggests that while a blanket inventory reduction could help optimize storage, certain high-turnover products must be excluded or adjusted individually to prevent service disruptions and lost revenue.
 
 ---
 
@@ -69,10 +67,7 @@ Compares total stock vs. total items shipped for each warehouse and order status
 | A         | 3,416,646   | Shipped    | 22,762           |
 | D         | 1,965,864   | Shipped    | 20,015           |
 
-📌 Insight:  
-Warehouse **D** ships nearly as much as larger warehouses with significantly less stock.  
-Warehouse **B** is large and active, but may have excess capacity.  
-💡 Consolidating **A and C** could be viable.
+📌 **Insight**:  The analysis of Mint Classics’ warehouse inventory and shipment data reveals significant differences in utilization across facilities. Warehouse B holds the largest inventory with over 5.5 million units in stock and leads in total shipped products, indicating strong operational activity. Warehouses A and C also maintain substantial stock levels and shipment volumes, suggesting efficient use of resources. Interestingly, Warehouse D has a notably smaller inventory but manages to ship a comparable volume of products, highlighting its critical role despite limited stock capacity. While warehouses A, B, and C exhibit balanced stock-to-shipment ratios, Warehouse D’s high shipment rate relative to its stock signals potential capacity constraints or a strategic focus on fast-moving inventory. Additionally, the presence of orders in ‘Resolved’ and ‘Disputed’ statuses across warehouses points to some fulfillment challenges that warrant further investigation. Given these findings, consolidation efforts could consider merging warehouses A and C to optimize storage and logistics, but caution is advised with Warehouse D due to its pivotal shipping role. Before final decisions, it is essential to analyze customer delivery requirements and cost implications to ensure service levels remain uncompromised.
 
 ---
 
@@ -80,9 +75,7 @@ Warehouse **B** is large and active, but may have excess capacity.
 
 Calculates total revenue from each product line.
 
-**Results:**
-
-📌 Insight: **Classic and Vintage Cars** are the most profitable lines. Focusing resources here can maximize ROI.
+📌 **Insight**:This query aggregates total revenue generated from each product line by summing the product of unit price (priceEach) and quantity ordered (quantityOrdered) across all sales. The results reveal that Classic Cars lead significantly with total revenue exceeding $3.85 million, nearly doubling the revenue of the next highest category, Vintage Cars at approximately $1.8 million. Motorcycles and Trucks and Buses also contribute substantial revenue, followed by Planes, Ships, and Trains. This distribution highlights the company’s strongest sales segments and suggests that focusing inventory management and marketing efforts on Classic and Vintage Cars could maximize profitability. Meanwhile, niche product lines like Trains generate comparatively lower revenue but may serve specialized customer demands.
 
 ---
 
