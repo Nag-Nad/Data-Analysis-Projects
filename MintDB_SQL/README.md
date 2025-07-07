@@ -2,7 +2,7 @@
 
 > **Author:** Naghmeh Naderi  
 > **Tools Used:** MySQL, MySQL Workbench  
-> **Database:** MintClassics Sample Database (Relational)
+> **Database:** _The Mint Classics relational database_ consists of **8 tables** with a total of approximately **3,864 records**. The dataset is centered around transactional and inventory data. The largest table, orderdetails, contains **2,996 entries**, capturing individual product transactions. Other key tables include orders with 326 records, products with 110 items, and customers with 122 profiles. Supporting data structures include employees (23 entries), offices (7 locations), productlines (7 categories), and payments (273 records). This moderately sized dataset is well-suited for business analysis tasks such as inventory optimization, sales performance evaluation, and warehouse utilization insights.
 ## 📐 EER Diagram
 
 ![EER Diagram](EER_Diagram_MintDB.png)
