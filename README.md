@@ -40,6 +40,8 @@ This repository serves as a central hub for the projects I’ve completed while 
 - 📊 **4) Multi-formatted File Data Analysis** 
 Collected and cleaned data from multiple files in different formats, then explored patterns using visualizations. Focused on making the data easier to understand and comparing results across sources.
 
+- 🧾 **5) Mint Classics Inventory & Sales Analysis (SQL)**
+Performed SQL-based analysis on the Mint Classics sample database to assess product demand, warehouse efficiency, and revenue distribution. Developed insights to support business decisions like warehouse consolidation and inventory optimization using MySQL queries and EER modeling.
 
 More projects will be added regularly!
 
