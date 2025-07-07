@@ -3,6 +3,9 @@
 > **Author:** Naghmeh Naderi  
 > **Tools Used:** MySQL, MySQL Workbench  
 > **Database:** MintClassics Sample Database (Relational)
+## 📐 EER Diagram
+
+![EER Diagram](EER_Diagram_MintDB.png)
 
 ## 📌 Project Overview
 
