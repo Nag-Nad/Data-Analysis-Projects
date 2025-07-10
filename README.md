@@ -44,7 +44,7 @@ Collected and cleaned data from multiple files in different formats, then explor
 Performed SQL-based analysis on the Mint Classics sample database to assess product demand, warehouse efficiency, and revenue distribution. Developed insights to support business decisions like warehouse consolidation and inventory optimization using `MySQL` queries and `EER modeling`.
 
 - 🕸️ **6) Open Food Facts Web Scraping & Product Data Extraction**
-Scraped detailed product information from the _Open Food Facts website_ using `Selenium`, `BeautifulSoup`, and `Requests`. Extracted data for the top 50 most scanned products including brand, quantity, packaging, origin, category, and barcode. Selenium (via Docker) was used to access dynamic content, while BeautifulSoup handled HTML parsing. Created structured dataframes with pandas and handled missing values using NumPy. Also included barcode-based scraping to retrieve additional nutritional details for individual products.
+Scraped detailed product information from the _Open Food Facts website_ using `Selenium`, `BeautifulSoup`, and `Requests`. Extracted data for the top 50 most scanned products including brand, quantity, packaging, origin, category, and barcode. Selenium `(via Docker)` was used to access dynamic content, while BeautifulSoup handled HTML parsing. Created structured dataframes with pandas and handled missing values using NumPy. Also included barcode-based scraping to retrieve additional nutritional details for individual products.
 
 More projects will be added regularly!
 
