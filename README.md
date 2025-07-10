@@ -37,10 +37,10 @@ This repository serves as a central hub for the projects I’ve completed while 
 - 🏠 **3) King County Housing Price Prediction**  
   Predicting house prices using regression models and feature engineering by `Python`
 
-- 📊 **4) Multi-formatted File Data Analysis** 
+- 📊 **4) Exploratory Data Analysis** 
 Collected and cleaned data from multiple files in different formats, then explored patterns using visualizations. Focused on making the data easier to understand and comparing results across sources by `Python`.
 
-- 🧾 **5) Mint Classics Inventory & Sales Analysis (SQL)**
+- 🧾 **5) Mint Car Inventory & Sales Analysis (SQL)**
 Performed SQL-based analysis on the Mint Classics sample database to assess product demand, warehouse efficiency, and revenue distribution. Developed insights to support business decisions like warehouse consolidation and inventory optimization using `MySQL` queries and `EER modeling`.
 
 - 🕸️ **6) Open Food Facts Web Scraping & Product Data Extraction**
