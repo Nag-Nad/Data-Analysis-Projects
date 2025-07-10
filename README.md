@@ -22,26 +22,29 @@ This repository serves as a central hub for the projects I’ve completed while 
 - **Matplotlib & Seaborn**: For data visualization  
 - **Scikit-learn**: For building and evaluating machine learning models  
 - **Jupyter Notebook**: Primary environment for interactive coding  
-- **SQL** *(in some projects)*: For structured data querying  
+- **SQL**: For structured data querying  
 
 ---
 
 ## 📁 Projects Included
 
 - 🚗 **1) Car Sales Models**
-  Analysing car prices based on their models using Microsoft Excel and dashboarding by Google Looker Studio.
+  Analysing car prices based on their models using `Microsoft Excel` and dashboarding by `Google Looker Studio`.
 
 - 🏫 **2) Chicago Schools & Socioeconomic Analysis**  
-  Analyzing relationships between school performance and community hardship indexes
+  Analyzing relationships between school performance and community hardship indexes by `Python` and by `SQLite`
 
 - 🏠 **3) King County Housing Price Prediction**  
-  Predicting house prices using regression models and feature engineering
+  Predicting house prices using regression models and feature engineering by `Python`
 
 - 📊 **4) Multi-formatted File Data Analysis** 
-Collected and cleaned data from multiple files in different formats, then explored patterns using visualizations. Focused on making the data easier to understand and comparing results across sources.
+Collected and cleaned data from multiple files in different formats, then explored patterns using visualizations. Focused on making the data easier to understand and comparing results across sources by `Python`.
 
 - 🧾 **5) Mint Classics Inventory & Sales Analysis (SQL)**
-Performed SQL-based analysis on the Mint Classics sample database to assess product demand, warehouse efficiency, and revenue distribution. Developed insights to support business decisions like warehouse consolidation and inventory optimization using MySQL queries and EER modeling.
+Performed SQL-based analysis on the Mint Classics sample database to assess product demand, warehouse efficiency, and revenue distribution. Developed insights to support business decisions like warehouse consolidation and inventory optimization using `MySQL` queries and `EER modeling`.
+
+- 🕸️ **6) Open Food Facts Web Scraping & Product Data Extraction**
+Scraped detailed product information from the _Open Food Facts website_ using `Selenium`, `BeautifulSoup`, and `Requests`. Extracted data for the top 50 most scanned products including brand, quantity, packaging, origin, category, and barcode. Selenium (via Docker) was used to access dynamic content, while BeautifulSoup handled HTML parsing. Created structured dataframes with pandas and handled missing values using NumPy. Also included barcode-based scraping to retrieve additional nutritional details for individual products.
 
 More projects will be added regularly!
 
