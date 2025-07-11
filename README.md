@@ -19,7 +19,7 @@ This repository serves as a central hub for the projects I’ve completed while 
 
 - **Python**: Core programming language used for data handling, modeling, and visualization  
 - **Pandas & NumPy**: For data manipulation and transformation  
-- **Matplotlib & Seaborn**: For data visualization  
+- **Matplotlib & Seaborn & Power BI**: For data visualization  
 - **Scikit-learn**: For building and evaluating machine learning models  
 - **Jupyter Notebook**: Primary environment for interactive coding  
 - **SQL**: For structured data querying  
