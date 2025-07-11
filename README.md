@@ -22,7 +22,8 @@ This repository serves as a central hub for the projects I’ve completed while 
 - **Matplotlib & Seaborn & Power BI**: For data visualization  
 - **Scikit-learn**: For building and evaluating machine learning models  
 - **Jupyter Notebook**: Primary environment for interactive coding  
-- **SQL**: For structured data querying  
+- **SQL**: For structured data querying 
+- **Request & BeautifulSoup4 & Selenium**: For data scraping 
 
 ---
 
