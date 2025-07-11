@@ -46,6 +46,8 @@ Performed SQL-based analysis on the Mint Classics sample database to assess prod
 - 🕸️ **6) Open Food Facts Web Scraping & Product Data Extraction**
 Scraped detailed product information from the _Open Food Facts website_ using `Selenium`, `BeautifulSoup`, and `Requests`. Extracted data for the top 50 most scanned products including brand, quantity, packaging, origin, category, and barcode. Selenium `(via Docker)` was used to access dynamic content, while BeautifulSoup handled HTML parsing. Created structured dataframes with pandas and handled missing values using NumPy. Also included barcode-based scraping to retrieve additional nutritional details for individual products.
 
+- ☕ **7) Brew Heaven Sales & Customer Insight Dashboard (Power BI)**
+Integrated sales, inventory, and customer feedback data for a local coffee shop chain using `Power BI`. Transformed messy Excel files into a clean data model with `Power Query`, resolved inconsistencies, and built a two-page interactive dashboard. Visualizations included time-series sales trends, product performance, stock levels by category, and supplier reordering patterns. Delivered actionable insights such as drops in product demand, potential quality issues, and overall customer sentiment (rated 4.2/5), helping the business make smarter inventory and marketing decisions.
 More projects will be added regularly!
 
 ---
