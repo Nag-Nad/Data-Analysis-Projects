@@ -51,6 +51,17 @@ Scraped detailed product information from the _Open Food Facts website_ using `S
 Integrated sales, inventory, and customer feedback data for a local coffee shop chain using `Power BI`. Transformed messy Excel files into a clean data model with `Power Query`, resolved inconsistencies, and built a two-page interactive dashboard. Visualizations included time-series sales trends, product performance, stock levels by category, and supplier reordering patterns. Delivered actionable insights such as drops in product demand, potential quality issues, and overall customer sentiment (rated 4.2/5), helping the business make smarter inventory and marketing decisions.
 More projects will be added regularly!
 
+- 💶 **8) Price Positioning Analysis of Competitor vs. Own Products (Python)**  
+Analyzed a CSV dataset of product prices from multiple competitors to evaluate pricing strategy and market positioning.  
+Key tasks included:  
+- Identifying how many products are cheaper, similarly priced, or more expensive compared to competitors  
+- Calculating average price differences by product group  
+- Detecting pricing outliers and trends  
+- Creating visualizations with **Matplotlib**, including:
+  - Distribution of own vs. competitor prices
+  - Bar charts of average price deviation per product group
+  - Summary views of competitive positioning
+
 ---
 
 ## 🤝 Let's Connect
