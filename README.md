@@ -52,15 +52,7 @@ Integrated sales, inventory, and customer feedback data for a local coffee shop 
 More projects will be added regularly!
 
 - 💶 **8) Price Positioning Analysis of Competitor vs. Own Products (Python)**  
-Analyzed a CSV dataset of product prices from multiple competitors to evaluate pricing strategy and market positioning.  
-Key tasks included:  
-- Identifying how many products are cheaper, similarly priced, or more expensive compared to competitors  
-- Calculating average price differences by product group  
-- Detecting pricing outliers and trends  
-- Creating visualizations with **Matplotlib**, including:
-  - Distribution of own vs. competitor prices
-  - Bar charts of average price deviation per product group
-  - Summary views of competitive positioning
+Analyzed a CSV dataset of product prices from multiple competitors to evaluate pricing strategy and market positioning by Python.
 
 ---
 
