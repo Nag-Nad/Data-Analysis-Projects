@@ -54,6 +54,9 @@ More projects will be added regularly!
 - 💶 **8) Price Positioning Analysis of Competitor vs. Own Products (Python)**  
 Analyzed a CSV dataset of product prices from multiple competitors to evaluate pricing strategy and market positioning by Python.
 
+- 🌊 **9)Lake Mendota Temperature Data Cleaning & Analysis (Python)**
+Cleaned and analyzed 1.5M temperature measurements from Lake Mendota (EDI knb-lter-ntl.130.33 dataset). Tasks included handling missing values (MAR mechanism), detecting/removing outliers in uni- and bi-models, applying winsorization and iterative imputation, and performing exploratory analysis across depths and time periods. Built statistical summaries and visualizations to reveal seasonal and depth-dependent patterns in water temperature, improving data quality for further ecological research.
+
 ---
 
 ## 🤝 Let's Connect
