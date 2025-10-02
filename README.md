@@ -66,6 +66,11 @@ More projects will be added regularly!
 
   Cleaned and analyzed 1.5M temperature measurements from Lake Mendota (EDI knb-lter-ntl.130.33 dataset). Tasks included handling missing values (MAR mechanism), detecting/removing outliers in uni- and bi-models, applying winsorization and iterative imputation, and performing exploratory analysis across depths and time         periods. Built statistical summaries and visualizations to reveal seasonal and depth-dependent patterns in water temperature, improving data quality for further ecological research.
 
+- **10) SQLite**
+  
+  This project explores the Chinook SQLite music store database using Python and pandas. It demonstrates how to connect to the database, query its tables, and analyze business data such as customers, invoices, sales agents, tracks, and artists. The notebook provides practical SQL examples and data analysis techniques for
+  real-world scenarios.
+
 ---
 
 ## 🤝 Let's Connect
